@@ -49,6 +49,7 @@
     <Compile Include="AnyActivityIndicatorManager.cs" />
     <Compile Include="IIndicator.cs" />
     <Compile Include="IActivityManager.cs" />
+    <Compile Include="HttpNetworkActivityDelegatingHandler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

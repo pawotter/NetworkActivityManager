@@ -26,3 +26,9 @@ NetworkActivityManger.Instance.Detach();
 // activity_count = 0, UIApplication#NetworkActivityIndicatorVisible = false
 ```
 
+### Usage (with System.Net.HttpClient)
+
+```csharp
+var httpClient = new HttpClient(new HttpNetworkActivityDelegatingHandler());
+```
+
