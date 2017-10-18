@@ -2,7 +2,7 @@
 
 namespace Pawotter.NetworkActivityManager
 {
-    public class NetworkActivityIndicator : IIndicator
+    public sealed class NetworkActivityIndicator : IIndicator
     {
         readonly UIApplication application;
 

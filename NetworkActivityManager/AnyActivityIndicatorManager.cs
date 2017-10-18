@@ -6,7 +6,7 @@ namespace Pawotter.NetworkActivityManager
     /// <summary>
     /// If any activity exists, given indicator will be activated.
     /// </summary>
-    class AnyActivityIndicatorManager : IActivityManager
+    sealed class AnyActivityIndicatorManager : IActivityManager
     {
         /// <summary>
         /// activity count
