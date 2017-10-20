@@ -1,4 +1,4 @@
-[![NuGet](https://img.shields.io/nuget/v/Mastodon.API.svg)](https://www.nuget.org/packages/Pawotter.NetworkActivityManager) [![License](https://img.shields.io/cocoapods/l/BadgeSwift.svg?style=flat)](/LICENSE)
+[![NuGet](https://img.shields.io/nuget/v/Pawotter.NetworkActivityManager.svg)](https://www.nuget.org/packages/Pawotter.NetworkActivityManager) [![License](https://img.shields.io/cocoapods/l/BadgeSwift.svg?style=flat)](/LICENSE)
 
 NetworkActivityManager
 ===
