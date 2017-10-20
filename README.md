@@ -1,3 +1,5 @@
+[![NuGet](https://img.shields.io/nuget/v/Mastodon.API.svg)](https://www.nuget.org/packages/Pawotter.NetworkActivityManager) [![License](https://img.shields.io/cocoapods/l/BadgeSwift.svg?style=flat)](/LICENSE)
+
 NetworkActivityManager
 ===
 
@@ -6,6 +8,16 @@ This is a a Network Activity Indicator Manager for Xamarin.iOS projects.
 ### Lisence
 
 MIT
+
+
+### Install
+
+Install from NuGet.
+
+```
+> Install-Package Pawotter.NetworkActivityManger
+```
+
 
 ### Usage
 
@@ -25,6 +37,7 @@ NetworkActivityManger.Instance.Detach();
 NetworkActivityManger.Instance.Detach();
 // activity_count = 0, UIApplication#NetworkActivityIndicatorVisible = false
 ```
+
 
 ### Usage (with System.Net.HttpClient)
 
